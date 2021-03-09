@@ -14,8 +14,6 @@ const Navbar = () => {
     const history = useHistory();
     const location = useLocation();
 
-    console.log(user);
-
     useEffect(() => {
         const token = user?.token;
 
